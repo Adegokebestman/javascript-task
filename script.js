@@ -1,5 +1,4 @@
-function function_name(num) {
-	function divide(num) {
+function divide(num) {
     var result = [];
     for (var i = 1; i <= num; i++) {
         var s = ""
@@ -33,9 +32,7 @@ function function_name(num) {
     return (result);
 }
 
-var res = divide(10);
+var res = divide(100);
 for (let elements of res) {
     console.log(elements);
-}
-
 }
